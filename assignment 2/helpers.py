@@ -1,0 +1,8 @@
+# COMP3311 22T3 Assignment 2 ... Python helper functions
+# add here any functions to share between Python scripts 
+# you must submit this even if you add nothing
+
+import re
+
+# check whether a string looks like a year value
+# return the integer value of the year if so
