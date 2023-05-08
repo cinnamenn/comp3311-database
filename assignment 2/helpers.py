@@ -6,3 +6,14 @@ import re
 
 # check whether a string looks like a year value
 # return the integer value of the year if so
+
+def getYear(year):
+   digits = re.compile("^\d{4}$")
+   if not digits.match(year):
+      return None
+   else:
+      return int(year)
+
+
+
+
